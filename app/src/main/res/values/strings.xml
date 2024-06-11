@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Thapathali App</string>
+    <string name="app_title">Thapathali Campus</string>
+    <string name="home">Home</string>
+    <string name="feed">Feed</string>
+    <string name="classroom">Classroom</string>
+    <string name="notice">Notice</string>
+    <string name="library">Library</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rachel_mcadams">Rachel McAdams</string>
+    <string name="todo">TODO</string>
+    <string name="hey">Hey,</string>
+    <string name="popular_services">Popular Services</string>
+    <string name="see_all">See All</string>
+    <string name="event">Event</string>
+    <string name="article">Article</string>
+    <string name="result">Result</string>
+    <string name="exam">Exam</string>
+    <string name="today_classes">Today Classes</string>
+    <string name="attendance">Attendance</string>
+    <string name="subjects">Subjects</string>
+    <string name="time">Time</string>
+    <string name="app_profile_student">App profile : Student</string>
+    <string name="sagar_gutpa">Sagar Gutpa</string>
+    <string name="roll_number">Roll number</string>
+    <string name="faculty">faculty</string>
+    <string name="year">year</string>
+    <string name="et_rollno">College Roll No</string>
+    <string name="password">password</string>
+    <string name="tribhuvan_university">Tribhuvan University</string>
+    <string name="ioe_thapathali_campus">IOE Thapathali Campus</string>
+    <string name="Login_msg">Please log in to continue</string>
+    <string name="log_in">Log In</string>
+    <string name="splash_screen">Splash Screen</string>
+</resources>

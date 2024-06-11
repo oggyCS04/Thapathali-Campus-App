@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home"/>
+
+    <item android:id="@+id/feed"
+        android:title="@string/feed"
+        android:icon="@drawable/ic_feed" />
+
+    <item android:id="@+id/classroom"
+        android:title="@string/classroom"
+        android:icon="@drawable/ic_people" />
+
+    <item android:id="@+id/notice"
+        android:title="@string/notice"
+        android:icon="@drawable/ic_notice" />
+
+    <item android:id="@+id/library"
+        android:title="@string/library"
+        android:icon="@drawable/ic_library"
+        />
+</menu>

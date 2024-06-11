@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/designClass"
+    android:layout_width="180dp"
+    android:layout_height="115dp"
+    android:backgroundTint="@color/today_class_bg"
+    app:cardCornerRadius="11dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:id="@+id/llTodayClass"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        tools:ignore="UnusedAttribute">
+
+
+        <TextView
+            android:id="@+id/teacherName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="bottom"
+            android:text="@string/todo"
+            android:textColor="#FF3400"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/subjectName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/roboto"
+            android:gravity="center_vertical"
+            android:text="@string/todo"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/time_bg"
+            android:text="@string/time"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

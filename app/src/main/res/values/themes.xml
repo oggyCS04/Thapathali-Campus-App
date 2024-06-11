@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ThapathaliApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/Primary_Orange</item>
+         <item name="colorPrimaryVariant">@color/text_Orange</item>
+        <item name="android:statusBarColor">@color/text_Orange</item>
+        
+
+    </style>
+
+    <style name="Theme.ThapathaliApp" parent="Base.Theme.ThapathaliApp" />
+    
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/indicator</item>
+        <item name="android:width">36dp</item>
+        <item name="android:height">36dp</item>
+    </style>
+
+    <style name="ImageView.Circle" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="RoundedCorner" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+</resources>
